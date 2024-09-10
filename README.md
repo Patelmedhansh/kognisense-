@@ -74,7 +74,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 ## Contact
 
-Your Name - your.email@example.com
+Medhansh Patel - Medhanshpatel18@gmail.com
 
 Project Link: [https://github.com/your-username/kognisense-website](https://github.com/your-username/kognisense-website)
 
