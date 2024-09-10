@@ -76,7 +76,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 Medhansh Patel - Medhanshpatel18@gmail.com
 
-Project Link: [https://github.com/your-username/kognisense-website](https://github.com/your-username/kognisense-website)
+Project Link: https://kognisense-659p.vercel.app/
 
 ## Acknowledgements
 
