@@ -1,0 +1,145 @@
+# Kognisense Consultancy Website - Project Documentation
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Project Overview](#project-overview)
+3. [Design and Layout](#design-and-layout)
+4. [File Structure](#file-structure)
+5. [HTML Structure](#html-structure)
+6. [CSS Styling](#css-styling)
+7. [JavaScript Functionality](#javascript-functionality)
+8. [Responsive Design](#responsive-design)
+9. [Accessibility Considerations](#accessibility-considerations)
+10. [Performance Optimizations](#performance-optimizations)
+11. [Known Issues and Future Improvements](#known-issues-and-future-improvements)
+
+## 1. Introduction
+
+This document provides a comprehensive overview of the Kognisense Consultancy website project. It details the current state of the project, design decisions, implementation specifics, and areas for future improvement.
+
+## 2. Project Overview
+
+The Kognisense Consultancy website is a modern, responsive site designed to showcase the company's IT consulting services. The primary goals of the website are to:
+
+- Present the company's services in an engaging manner
+- Provide information about the company and its team
+- Offer a means for potential clients to contact the company
+- Demonstrate the company's technological expertise through the website itself
+
+## 3. Design and Layout
+
+The website follows a clean, modern design with a focus on readability and user experience. Key design elements include:
+
+- Color Scheme: Primary color (#6200ea), Secondary color (#b388ff), with white backgrounds for contrast
+- Typography: Sans-serif fonts for clean, modern look
+- Layout: Responsive grid system for flexible content arrangement
+- Interactive Elements: Hover effects, smooth transitions, and scroll animations
+
+## 4. File Structure
+
+```
+kognisense-website/
+│
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+├── styles.css
+├── script.js
+└── README.md
+```
+
+## 5. HTML Structure
+
+Each HTML file follows a similar structure:
+
+- `<!DOCTYPE html>` declaration
+- `<head>` section with meta tags, title, and CSS link
+- `<body>` containing:
+  - Navigation bar
+  - Main content (varies by page)
+  - Footer
+  - Script tag linking to JavaScript file
+
+The `services.html` file, for example, includes:
+
+- A hero section with a title and brief description
+- Multiple service items, each with an image, description, and "Learn More" button
+
+## 6. CSS Styling
+
+The `styles.css` file contains all the styles for the website, including:
+
+- Global styles and variables (e.g., color scheme)
+- Layout styles (e.g., container, grid system)
+- Component-specific styles (e.g., navigation, footer, service items)
+- Responsive design rules
+- Animations and transitions
+
+Key CSS features:
+
+- Use of CSS variables for consistent theming
+- Flexbox and Grid for layout
+- Media queries for responsive design
+- Transitions for smooth interactive effects
+
+## 7. JavaScript Functionality
+
+The `script.js` file provides several key functionalities:
+
+- Mobile menu toggle
+- Intersection Observer for scroll-based animations
+- Smooth scrolling for anchor links
+- Form validation (for the contact page)
+- "Learn More" button click handling
+
+## 8. Responsive Design
+
+The website is designed to be fully responsive, adapting to various screen sizes:
+
+- Desktop: Full layout with side-by-side elements
+- Tablet: Adjusted layout with some stacked elements
+- Mobile: Fully stacked layout with a toggle menu
+
+Responsive features include:
+
+- Flexible images
+- Responsive typography
+- Mobile-first media queries
+- Collapsible navigation menu for small screens
+
+## 9. Accessibility Considerations
+
+Efforts have been made to ensure the website is accessible:
+
+- Semantic HTML structure
+- Proper use of headings (h1, h2, etc.)
+- Alt text for images
+- Color contrast following WCAG guidelines
+- Keyboard navigation support
+
+## 10. Performance Optimizations
+
+Several optimizations have been implemented:
+
+- Minified CSS and JavaScript (to be done in production)
+- Optimized images (using appropriate sizes and formats)
+- Lazy loading of images (using native browser support)
+- Minimal use of external libraries
+
+## 11. Known Issues and Future Improvements
+
+Current known issues:
+
+- "Learn More" button redirection issue (being addressed)
+
+Potential future improvements:
+
+- Implementation of a blog section
+- Integration with a backend for form submissions
+- Addition of more interactive elements (e.g., sliders, accordions)
+- Implementation of a dark mode
+- Enhancement of SEO features
+
+This documentation provides an overview of the current state of the Kognisense Consultancy website project. As development continues, this document should be updated to reflect new features, changes in design or structure, and any resolved issues.
